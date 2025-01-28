@@ -126,7 +126,7 @@ public:
     // When running as a client emulator this is how many clients to spawn.
     inline static const size_t CLIENT_EMULATOR_COUNT = 2000;
 
-    constexpr inline static const bool AUTH_ENABLED = true;
+    constexpr inline static const bool AUTH_ENABLED = false;
 
     // How long with now data gathering requests before we timeout and stop
     // gathering data for perf.
